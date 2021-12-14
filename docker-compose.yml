@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+    log4j-app:
+        build: ./log4shell-vulnerable-app
+        ports:
+            - 8080:8080
+
+    rmi-server:
+        build: ./rmi
+        env_file: ./.env
